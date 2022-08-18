@@ -1,0 +1,54 @@
+.nav-bar{
+    display: flex;
+    background-color: #FFF8DC;
+    padding: 5px;
+}
+
+.nav-bar-home{
+    display: flex;
+    margin-right: auto;
+    gap: 5px;
+}
+
+.nav-bar-buttons-signup-login{
+    display: flex;
+    margin-left: auto;
+    gap: 5px;
+}
+
+.nav-bar-sign-up, .nav-bar-log-in, .nav-bar-home-button{
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    height: 50px;
+}
+
+
+
+.content{
+    display: flex;
+    background-color: #02343F;
+    justify-content: center;
+    padding: 30px;
+    
+}
+
+.content-form{
+    display: flex;
+    background-color: #FFF8DC;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+input{
+    width: 230px;
+}
+
+.register-button{
+    height: 80px;
+    width: 80px;
+    border-radius: 30%;
+    border: none;
+    text-align: center;
+}

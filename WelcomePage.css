@@ -1,0 +1,154 @@
+.nav-bar{
+    display: flex;
+    background-color: #FFF8DC;
+    padding: 5px;
+}
+
+.nav-bar-title{
+    /* display: flex; */
+    margin-right: auto;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.nav-bar-buttons{
+    display: flex;
+    margin-left: auto;
+    gap: 5px;
+}
+
+.nav-bar-sign-up, .nav-bar-log-in{
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    height: 50px;
+}
+
+.a-home{
+    text-decoration: none;
+}
+
+
+.header{
+    display:  flex;
+    background-color: #1F2937;
+    flex-direction: column;
+    
+}
+
+.header-header{
+    display: flex;
+    /* background-color: violet; */
+    flex-wrap: wrap;
+    
+}
+
+.header-logo{
+    display: flex;
+  
+    height: 80px;
+    width: 80px;
+    /* padding: 15px; */
+
+}
+
+.links-header{
+    display: flex;
+    /* background-color: red; */
+    justify-content: space-between;
+    flex-direction: row-reverse ;
+    margin-left: auto;
+    gap:15px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+    height: 24px;
+    font-size: 24px;
+}
+
+.header-text{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.hero-text-header{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    flex-wrap: nowrap;
+    gap:30px
+    
+}
+
+.left-side-hero-text{
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    padding: 15px;
+}
+
+.title-hero-text-header{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.under-title-text-header{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+.right-side-hero-text{
+    display: flex;
+    margin-left: auto;
+}
+
+.image-hero-header{
+    
+    width: 300px;
+    height: 300px;
+
+}
+
+.mid-section{
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    gap: 20px;
+}
+
+.upper-mid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: violet; */
+}
+
+.upper-mid-text{
+    font-weight: bolder;
+}
+
+.upper-mid-img{
+    display: flex;
+
+}
+
+.mid-img1,
+.mid-img2,
+.mid-img3,
+.mid-img4{
+    height: 150px;
+    width: 150px;
+}
+
+.mid-img-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

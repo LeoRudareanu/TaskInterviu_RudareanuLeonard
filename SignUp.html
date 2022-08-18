@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="SignUp.css">
+</head>
+<body style="background-color: #02343F">
+    
+    <div class="nav-bar">
+        <div class="nav-bar-home">
+            <a href="./index.html">
+                <button class="nav-bar-home-button">HOME</button>
+
+            </a>
+        </div>
+
+        <div class="nav-bar-buttons-signup-login">
+
+            <!-- <a href="./SignUp.html">
+                <button class="nav-bar-sign-up">
+                    SIGN UP
+                </button>
+            </a> -->
+
+            <a href="./LogIn.html">
+                <button class="nav-bar-log-in">
+                    LOG IN
+                </button>
+            </a>
+            
+
+        </div>
+
+    </div>
+
+
+    <div class="content">
+
+        <form name="form" action="./SignUp.php" method="GET" class="content-form" onsubmit=" return emptyDatas(this)">
+            <label>E-mail</label>
+            <br>
+            <input type="text" id="email" name="email">
+            <br>
+            <br>
+            <label>Parola</label>
+            <input type="password" id="password" name="password">
+            <br><br>
+
+            
+            <button class="register-button" type="submit">Register</button>
+            
+            <br><br>
+
+        </form>
+
+    </div>
+
+
+    <script src="./SignUp.js"></script>
+
+</body>
+</html>
